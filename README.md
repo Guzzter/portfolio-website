@@ -17,8 +17,8 @@
   <a href="https://www.lekoarts.de?utm_source=cara&utm_medium=Starter">
     <img alt="Website" src="https://img.shields.io/badge/-website-blue">
   </a>
-  <a href="https://twitter.com/intent/follow?screen_name=lekoarts_de">
-    <img src="https://img.shields.io/twitter/follow/lekoarts_de.svg?label=Follow%20@lekoarts_de" alt="Follow @lekoarts_de" />
+  <a href="https://twitter.com/intent/follow?screen_name=guus">
+    <img src="https://img.shields.io/twitter/follow/guus.svg?label=Follow%20@lekoarts_de" alt="Follow @guus" />
   </a>
 </p>
 
