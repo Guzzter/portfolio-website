@@ -7,7 +7,6 @@ const Footer = () => {
   const toggleColorMode = (e: any) => {
     setColorMode(isDark ? `light` : `dark`)
   }
-  setColorMode('dark')
 
   return (
     <Box as="footer" variant="footer">
