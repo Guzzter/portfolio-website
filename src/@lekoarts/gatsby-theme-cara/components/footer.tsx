@@ -3,7 +3,7 @@ import { Box, Flex, Link, useColorMode, jsx } from "theme-ui"
 
 const Footer = () => {
   const [ colorMode, setColorMode] = useColorMode()
-  const isDark = colorMode === `dark`
+  const isDark = colorMode === `dark` /* Hack proposed by theme author: if you want dark as default, reverse the colors */
   const toggleColorMode = (e: any) => {
     setColorMode(isDark ? `light` : `dark`)
   }
@@ -16,7 +16,7 @@ const Footer = () => {
         type="button"
         aria-label="Toggle dark mode"
       >
-        {isDark ? `Light` : `Dark`}
+        Switch to {isDark ? `Dark` : `Light`} mode
       </button>
       Copyright &copy; {new Date().getFullYear()}. All rights reserved.
       <br />
