@@ -17,12 +17,12 @@ module.exports = {
     author: `@guus`,
   },
   plugins: [
-    {
-      resolve: `@lekoarts/gatsby-theme-cara`,
-      // See the theme's README for all available options
-      options: {},
-    },
-    {
+      {
+        resolve: `@lekoarts/gatsby-theme-cara`,
+        // See the theme's README for all available options
+        options: {}
+     },
+      {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
@@ -49,6 +49,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+    `gatsby-plugin-typescript`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {
